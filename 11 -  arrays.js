@@ -23,3 +23,8 @@ frutas.push(1) // adiciona numero ao array de frutas(string)
 frutas.push(true) // adiciona booleano
 
 console.log(frutas)
+
+//deletar item
+delete frutas[0]
+console.log(frutas)
+console.log(frutas[0])
